@@ -1,0 +1,7 @@
+set confirm off
+set architecture riscv:rv64
+target remote 127.0.0.1:26000
+add-symbol-file security_monitor/security_monitor 0x80000000
+add-symbol-file kernel/kernel   0x80F00000
+set disassemble-next-line auto
+set riscv use-compressed-breakpoints yes

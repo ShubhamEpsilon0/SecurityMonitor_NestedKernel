@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "types.h": "c",
+        "param.h": "c",
+        "defs.h": "c",
+        "memlayout.h": "c",
+        "buf.h": "c",
+        "load_kernel.h": "c",
+        "elf.h": "c",
+        "riscv.h": "c",
+        "sysproc.h": "c",
+        "syscall.h": "c",
+        "user.h": "c",
+        "proc.h": "c"
+    }
+}
